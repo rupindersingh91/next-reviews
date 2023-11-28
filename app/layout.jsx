@@ -4,12 +4,13 @@ export default function RootLayout({ children }) {
             <body>
                 <header>
                     <title>Next Reviews</title>
+                    <header>[header]</header>
                 </header>
                 <main>
                     {children}
                 </main>
                 <footer>
-                    Footer Here...
+                    [footer]
                 </footer>
             </body>
         </html>
