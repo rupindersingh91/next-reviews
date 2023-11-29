@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
@@ -6,13 +8,13 @@ export default function RootLayout({ children }) {
                     <nav>
                         <ul>
                             <li>
-                                <a href="/">Home</a>
+                                <Link href="/">Home</Link>
                             </li>
                             <li>
-                                <a href="/reviews">Reviews</a>
+                                <Link href="/reviews">Reviews</Link>
                             </li>
                             <li>
-                                <a href="/about">About</a>
+                                <Link href="/about">About</Link>
                             </li>
                         </ul>
                     </nav>
