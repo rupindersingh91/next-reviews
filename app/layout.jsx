@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
                                 <Link href="/reviews">Reviews</Link>
                             </li>
                             <li>
-                                <Link href="/about"  prefetch={false}>About</Link>
+                                <Link href="/about" prefetch={false}>About</Link>
                             </li>
                         </ul>
                     </nav>
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
                     {children}
                 </main>
                 <footer>
-                    [footer]
+                    Game data and images courtesy of <a href="https://www.rawg.com" target="_blank">RAWG</a>
                 </footer>
             </body>
         </html>
